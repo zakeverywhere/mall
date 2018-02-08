@@ -1,12 +1,17 @@
-Mall 
+Access via http://54.252.150.143:8080
+log in as
+admin
+123456
+
+Mall
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:80
 npm run dev
 
 # build for production with minification
@@ -16,4 +21,4 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+run api server at ./server/bin/www. port number:3000

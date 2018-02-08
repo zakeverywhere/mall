@@ -49,7 +49,7 @@
                   </div>
                 </li>
               </ul>
-              <!-- infinite scoll -->
+              <!-- infinite scroll -->
               <div v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="30">
                 <img src="./../assets/loading-spinning-bubbles.svg" v-show="loading">
               </div>
